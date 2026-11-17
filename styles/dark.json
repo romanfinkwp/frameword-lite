@@ -1,0 +1,129 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "dark",
+  "settings": {
+    "color": {
+      "duotone": [
+				{
+					"colors": ["#fff", "#111"],
+					"slug": "duotone-1",
+					"name": "Default"
+				},
+        {
+					"colors": ["#fff", "#111"],
+					"slug": "duotone-reverse",
+					"name": "Revers"
+				}
+      ],
+      "palette": [
+        {
+          "slug": "accent",
+          "color": "#fff",
+          "name": "Accent"
+        },
+        {
+          "slug": "font",
+          "color": "#fff",
+          "name": "Font"
+        },
+        {
+          "slug": "font-headers",
+          "color": "#fff",
+          "name": "Font Headers"
+        },
+        {
+          "slug": "font-text",
+          "color": "#eee",
+          "name": "Font Text"
+        },
+        {
+          "slug": "font-light",
+          "color": "#fff",
+          "name": "Font Light"
+        },
+        {
+          "slug": "font-headers-light",
+          "color": "#fff",
+          "name": "Font Headers Light"
+        },
+        {
+          "slug": "font-text-light",
+          "color": "#b3b3b3",
+          "name": "Font Text Light"
+        },
+        {
+          "slug": "header-background",
+          "color": "#222",
+          "name": "Header Background"
+        },
+        {
+          "slug": "header-font",
+          "color": "#fff",
+          "name": "Header Font"
+        },
+        {
+          "slug": "background",
+          "color": "#222",
+          "name": "Background"
+        },
+        {
+          "slug": "background-soft",
+          "color": "#333",
+          "name": "Background Soft"
+        },
+        {
+          "slug": "background-hard",
+          "color": "#555",
+          "name": "Background Hard"
+        },
+        {
+          "slug": "background-inputs",
+          "color": "#555",
+          "name": "Inputs Background"
+        },
+        {
+          "slug": "border-inputs",
+          "color": "#333",
+          "name": "Inputs Border "
+        },
+        {
+          "slug": "links",
+          "color": "#eee",
+          "name": "Links"
+        },
+        {
+          "slug": "links-light",
+          "color": "#ccc",
+          "name": "Links Light"
+        },
+        {
+          "slug": "buttons",
+          "color": "#fff",
+          "name": "Buttons"
+        },
+        {
+          "slug": "buttons-font",
+          "color": "#111",
+          "name": "Buttons Font"
+        },
+        {
+          "slug": "buttons-light",
+          "color": "#ccc",
+          "name": "Buttons light"
+        },
+        {
+          "slug": "buttons-light-font",
+          "color": "#111",
+          "name": "Buttons light Font"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--font)"
+    }
+  }
+}
